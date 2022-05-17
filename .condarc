@@ -1,0 +1,9 @@
+auto_activate_base: true
+auto_update_conda: false
+channels:
+  - conda-forge
+  - defaults
+  - r
+show_channel_urls: true
+verbosity: 1
+pip_interop_enabled: true
