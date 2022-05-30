@@ -24,6 +24,9 @@ fi &&
 if [[ -f "conda-spec-${env_name}.txt" ]]; then
   mv "conda-spec-${env_name}.txt" "macos-config/conda-spec-${env_name}-${env_date}.txt.backup"
 fi &&
+if [[ -f "requirements-${env_name}.txt" ]]; then
+  mv "requirements-${env_name}.txt" "macos-config/requirements-${env_name}-${env_date}.txt.backup"
+fi &&
 if [[ -f "macos-config-report.txt" ]]; then
   mv "macos-config-report.txt" "macos-config/macos-config-report-${env_date}.txt.backup"
 fi &&
@@ -40,7 +43,10 @@ conda env export > "conda-${env_name}.yml" &&                     # platform-spe
 conda env export --from-history > "conda-core-${env_name}.yml" && # platform-agnostic
 
 # https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#building-identical-conda-environments
-conda list --explicit > conda-spec-${env_name}.txt &&
+conda list --explicit > "conda-spec-${env_name}.txt" &&
+
+# https://pip.pypa.io/en/stable/user_guide/#requirements-files
+pip freeze > "requirements-${env_name}.txt" &&
 
 #####
 #
