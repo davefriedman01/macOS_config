@@ -1,1 +1,2 @@
-/opt/anaconda3
+/Users/davefriedman/opt/anaconda3
+/Users/davefriedman/opt/anaconda3/envs/myenv
