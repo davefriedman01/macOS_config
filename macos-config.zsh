@@ -5,10 +5,11 @@ env_date=$(TZ=America/New_York date -Iseconds) &&
 #####
 #
 # Backup old files
-#   conda-myenv.yml
+#   conda-full-myenv.yml
 #   conda-core-myenv.yml
-#   conda-spec-file-myenv.txt
-#   config-report.txt
+#   conda-spec-myenv.txt
+#   requirements-myenv.txt
+#   macos-config-report.txt
 #
 #####
 
