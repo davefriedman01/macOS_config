@@ -4,6 +4,17 @@ channels:
   - conda-forge
   - defaults
   - r
+create_default_packages:
+  - ipython
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - numpy-financial
+  - pandas
+  - pandoc
+  - pip
+  - plotly
+  - scipy
 show_channel_urls: true
 verbosity: 1
 pip_interop_enabled: true
