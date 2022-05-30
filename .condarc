@@ -3,10 +3,15 @@ auto_update_conda: false
 channels:
   - conda-forge
   - defaults
+  - plotly
   - r
 create_default_packages:
+  - flask
+  - ipykernel
   - ipython
+  - ipywidgets
   - jupyterlab
+  - jupyter-dash
   - matplotlib
   - numpy
   - numpy-financial
