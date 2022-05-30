@@ -48,10 +48,11 @@ conda list --explicit > conda-spec-file-${env_name}.txt &&
 #
 #####
 
-echo "#####\n#\n# SYSTEM  \n#\n#####\n\n"  > macos-config-report.txt &&
-sw_vers                                   >> macos-config-report.txt &&
-echo "#####\n#\n# HOMEBREW\n#\n#####\n\n" >> macos-config-report.txt &&
-brew config                               >> macos-config-report.txt &&
-echo "\n\n\n"                             >> macos-config-report.txt &&
-echo "#####\n#\n# ANACONDA\n#\n#####\n\n" >> macos-config-report.txt &&
+echo "#####\n#\n# SYSTEM  \n#\n#####\n"  > macos-config-report.txt &&
+sw_vers                                 >> macos-config-report.txt &&
+echo "\n\n\n"                           >> macos-config-report.txt &&
+echo "#####\n#\n# HOMEBREW\n#\n#####\n" >> macos-config-report.txt &&
+brew config                             >> macos-config-report.txt &&
+echo "\n\n\n"                           >> macos-config-report.txt &&
+echo "#####\n#\n# ANACONDA\n#\n#####\n" >> macos-config-report.txt &&
 conda info                                >> macos-config-report.txt
