@@ -190,4 +190,8 @@ dependencies:
   - zeromq=4.3.4=he49afe7_1
   - zipp=3.8.0=pyhd8ed1ab_0
   - zlib=1.2.12=h4dc903c_2
+  - pip:
+    - ansible==5.8.0
+    - ansible-core==2.12.6
+    - resolvelib==0.5.4
 prefix: /Users/davefriedman/opt/anaconda3/envs/myenv
