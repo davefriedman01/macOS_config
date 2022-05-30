@@ -1,0 +1,15 @@
+.DS_Store
+.ipynb_checkpoints
+.gitignore
+*.swp
+__pycache__
+
+Applications
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
