@@ -35,7 +35,7 @@ HEAD: 30e3d8883cde265cbc16ff94b49a3ac14137590e
 Last commit: 3 weeks ago
 Core tap ORIGIN: https://github.com/Homebrew/homebrew-core
 Core tap HEAD: 39dc86d3ee5b4c1ddd78774e6fae39dedbaf1edb
-Core tap last commit: 17 hours ago
+Core tap last commit: 20 hours ago
 Core tap branch: master
 HOMEBREW_PREFIX: /opt/homebrew
 HOMEBREW_CASK_OPTS: []
