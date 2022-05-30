@@ -1,0 +1,85 @@
+#####
+#
+# SYSTEM  
+#
+#####
+
+ProductName:	macOS
+ProductVersion:	12.3.1
+BuildVersion:	21E258
+
+
+
+
+#####
+#
+# HOMEBREW
+#
+#####
+
+HOMEBREW_VERSION: 3.4.11
+ORIGIN: https://github.com/Homebrew/brew
+HEAD: 30e3d8883cde265cbc16ff94b49a3ac14137590e
+Last commit: 3 weeks ago
+Core tap ORIGIN: https://github.com/Homebrew/homebrew-core
+Core tap HEAD: 39dc86d3ee5b4c1ddd78774e6fae39dedbaf1edb
+Core tap last commit: 15 hours ago
+Core tap branch: master
+HOMEBREW_PREFIX: /opt/homebrew
+HOMEBREW_CASK_OPTS: []
+HOMEBREW_CORE_GIT_REMOTE: https://github.com/Homebrew/homebrew-core
+HOMEBREW_MAKE_JOBS: 10
+Homebrew Ruby: 2.6.8 => /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby
+CPU: 10-core 64-bit arm_firestorm_icestorm
+Clang: 13.1.6 build 1316
+Git: 2.32.1 => /Applications/Xcode.app/Contents/Developer/usr/bin/git
+Curl: 7.79.1 => /usr/bin/curl
+macOS: 12.3.1-arm64
+CLT: 13.4.0.0.1.1651278267
+Xcode: 13.4
+Rosetta 2: false
+
+
+
+
+#####
+#
+# ANACONDA
+#
+#####
+
+
+     active environment : myenv
+    active env location : /Users/davefriedman/opt/anaconda3/envs/myenv
+            shell level : 1
+       user config file : /Users/davefriedman/.condarc
+ populated config files : /Users/davefriedman/.condarc
+          conda version : 4.13.0
+    conda-build version : 3.21.8
+         python version : 3.9.12.final.0
+       virtual packages : __osx=10.16=0
+                          __unix=0=0
+                          __archspec=1=x86_64
+       base environment : /Users/davefriedman/opt/anaconda3  (writable)
+      conda av data dir : /Users/davefriedman/opt/anaconda3/etc/conda
+  conda av metadata url : None
+           channel URLs : https://conda.anaconda.org/conda-forge/osx-64
+                          https://conda.anaconda.org/conda-forge/noarch
+                          https://repo.anaconda.com/pkgs/main/osx-64
+                          https://repo.anaconda.com/pkgs/main/noarch
+                          https://repo.anaconda.com/pkgs/r/osx-64
+                          https://repo.anaconda.com/pkgs/r/noarch
+                          https://conda.anaconda.org/plotly/osx-64
+                          https://conda.anaconda.org/plotly/noarch
+                          https://conda.anaconda.org/r/osx-64
+                          https://conda.anaconda.org/r/noarch
+          package cache : /Users/davefriedman/opt/anaconda3/pkgs
+                          /Users/davefriedman/.conda/pkgs
+       envs directories : /Users/davefriedman/opt/anaconda3/envs
+                          /Users/davefriedman/.conda/envs
+               platform : osx-64
+             user-agent : conda/4.13.0 requests/2.27.1 CPython/3.9.12 Darwin/21.4.0 OSX/10.16
+                UID:GID : 501:20
+             netrc file : None
+           offline mode : False
+

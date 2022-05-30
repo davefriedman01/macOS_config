@@ -1,0 +1,15 @@
+name: myenv
+channels:
+  - conda-forge
+  - defaults
+  - plotly
+  - r
+dependencies:
+  - python=3.10
+  - jupyterlab
+  - jupyter-book
+  - numpy
+  - pandas
+  - plotly
+  - jupyter-dash
+prefix: /Users/davefriedman/opt/anaconda3/envs/myenv
