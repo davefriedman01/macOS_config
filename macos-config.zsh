@@ -55,4 +55,4 @@ echo "#####\n#\n# HOMEBREW\n#\n#####\n" >> macos-config-report.txt &&
 brew config                             >> macos-config-report.txt &&
 echo "\n\n\n"                           >> macos-config-report.txt &&
 echo "#####\n#\n# ANACONDA\n#\n#####\n" >> macos-config-report.txt &&
-conda info                                >> macos-config-report.txt
+conda info                              >> macos-config-report.txt
