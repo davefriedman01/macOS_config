@@ -2,6 +2,7 @@
 .ipynb_checkpoints
 .gitignore
 .localized
+.ssh
 *.ini
 *.swp
 __pycache__
