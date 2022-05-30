@@ -19,6 +19,7 @@ create_default_packages:
   - pandoc
   - pip
   - plotly
+  - pyspark
   - scipy
 show_channel_urls: true
 verbosity: 1
