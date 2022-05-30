@@ -107,6 +107,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
+export ANSIBLE_CONFIG=/Users/davefriedman/ansible.cfg
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
