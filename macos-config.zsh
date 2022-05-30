@@ -51,6 +51,10 @@ conda list --explicit > conda-spec-${env_name}.txt &&
 echo "#####\n#\n# SYSTEM  \n#\n#####\n"  > macos-config-report.txt &&
 sw_vers                                 >> macos-config-report.txt &&
 echo "\n\n\n"                           >> macos-config-report.txt &&
+echo "#####\n#\n# SHELL   \n#\n#####\n" >> macos-config-report.txt &&
+echo $SHELL                             >> macos-config-report.txt &&
+$(echo $SHELL) --version                >> macos-config-report.txt &&
+echo "\n\n\n"                           >> macos-config-report.txt &&
 echo "#####\n#\n# HOMEBREW\n#\n#####\n" >> macos-config-report.txt &&
 brew config                             >> macos-config-report.txt &&
 echo "\n\n\n"                           >> macos-config-report.txt &&
