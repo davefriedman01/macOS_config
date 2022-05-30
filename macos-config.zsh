@@ -24,8 +24,8 @@ fi &&
 if [[ -f "conda-spec-file-${env_name}.txt" ]]; then
   mv "conda-spec-file-${env_name}.txt" "macos-config/conda-spec-${env_name}-${env_date}.txt.backup"
 fi &&
-if [[ -f "config-report.txt" ]]; then
-  mv "config-report.txt" "macos-config/config-report-${env_date}.txt.backup"
+if [[ -f "macos-config-report.txt" ]]; then
+  mv "macos-config-report.txt" "macos-config/macos-config-report-${env_date}.txt.backup"
 fi &&
 
 #####
@@ -48,8 +48,10 @@ conda list --explicit > conda-spec-file-${env_name}.txt &&
 #
 #####
 
-echo "#####\n#\n# HOMEBREW\n#\n#####\n\n"  > config-report.txt &&
-brew config                               >> config-report.txt &&
-echo "\n\n\n"                             >> config-report.txt &&
-echo "#####\n#\n# ANACONDA\n#\n#####\n\n" >> config-report.txt &&
-conda info                                >> config-report.txt
+echo "#####\n#\n# SYSTEM  \n#\n#####\n\n"  > macos-config-report.txt &&
+sw_vers                                   >> macos-config-report.txt &&
+echo "#####\n#\n# HOMEBREW\n#\n#####\n\n" >> macos-config-report.txt &&
+brew config                               >> macos-config-report.txt &&
+echo "\n\n\n"                             >> macos-config-report.txt &&
+echo "#####\n#\n# ANACONDA\n#\n#####\n\n" >> macos-config-report.txt &&
+conda info                                >> macos-config-report.txt
