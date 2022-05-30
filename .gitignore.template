@@ -1,8 +1,11 @@
 .DS_Store
 .ipynb_checkpoints
 .gitignore
+.localized
+*.ini
 *.swp
 __pycache__
+\$* # anything that starts with a dollar sign
 
 Applications
 Desktop
