@@ -1,1 +1,1 @@
-# macOS_config
+macOS config
