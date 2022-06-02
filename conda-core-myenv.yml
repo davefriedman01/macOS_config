@@ -13,4 +13,5 @@ dependencies:
   - plotly
   - jupyter-dash
   - pyspark=3.2.1
+  - psycopg2=2.9.3
 prefix: /Users/davefriedman/opt/anaconda3/envs/myenv

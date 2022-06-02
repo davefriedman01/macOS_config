@@ -92,6 +92,7 @@ plotly @ file:///opt/conda/envs/env/conda-bld/plotly_1652143795738/work/packages
 prometheus-client @ file:///home/conda/feedstock_root/build_artifacts/prometheus_client_1649447152425/work
 prompt-toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1649130487073/work
 psutil @ file:///Users/runner/miniforge3/conda-bld/psutil_1653089316499/work
+psycopg2 @ file:///Users/runner/miniforge3/conda-bld/psycopg2-split_1640944566774/work
 ptyprocess @ file:///home/conda/feedstock_root/build_artifacts/ptyprocess_1609419310487/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
 pure-eval @ file:///home/conda/feedstock_root/build_artifacts/pure_eval_1642875951954/work
 py4j @ file:///home/conda/feedstock_root/build_artifacts/py4j_1639545792025/work
