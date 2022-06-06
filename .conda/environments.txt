@@ -1,2 +1,4 @@
 /Users/davefriedman/opt/anaconda3
+/Users/davefriedman/opt/anaconda3/envs/myenv2
+/Users/davefriedman/opt/anaconda3/envs/jupyterbook
 /Users/davefriedman/opt/anaconda3/envs/myenv
