@@ -32,10 +32,10 @@ zsh 5.8 (x86_64-apple-darwin21.0)
 HOMEBREW_VERSION: 3.4.11
 ORIGIN: https://github.com/Homebrew/brew
 HEAD: 30e3d8883cde265cbc16ff94b49a3ac14137590e
-Last commit: 3 weeks ago
+Last commit: 4 weeks ago
 Core tap ORIGIN: https://github.com/Homebrew/homebrew-core
 Core tap HEAD: 39dc86d3ee5b4c1ddd78774e6fae39dedbaf1edb
-Core tap last commit: 4 days ago
+Core tap last commit: 8 days ago
 Core tap branch: master
 HOMEBREW_PREFIX: /opt/homebrew
 HOMEBREW_CASK_OPTS: []
@@ -61,8 +61,8 @@ Rosetta 2: false
 #####
 
 
-     active environment : myenv
-    active env location : /Users/davefriedman/opt/anaconda3/envs/myenv
+     active environment : newenv
+    active env location : /Users/davefriedman/opt/anaconda3/envs/newenv
             shell level : 1
        user config file : /Users/davefriedman/.condarc
  populated config files : /Users/davefriedman/.condarc

@@ -5,22 +5,28 @@ channels:
   - defaults
   - plotly
   - r
+channel_priority: false
 create_default_packages:
-  - flask
+  - flask=2.1
   - ipykernel
-  - ipython
+  - ipython=8.4
   - ipywidgets
-  - jupyterlab
+  - jinja2=3.1
+  - jupyterlab=3.4
+  - jupyter-book=0.13
   - jupyter-dash
   - matplotlib
-  - numpy
+  - numpy=1.22
   - numpy-financial
-  - pandas
+  - pandas=1.4
   - pandoc
-  - pip
-  - plotly
-  - pyspark
-  - scipy
+  - pip=22.1
+  - plotly=5.8
+  - pyspark=3.2
+  - python-dotenv=0.20
+  - scikit-learn=1.1
+  - scipy=1.8
+  - statsmodels=0.13
 show_channel_urls: true
 verbosity: 1
 pip_interop_enabled: true

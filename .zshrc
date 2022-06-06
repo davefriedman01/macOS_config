@@ -130,7 +130,7 @@ export ANSIBLE_CONFIG=/Users/davefriedman/ansible.cfg
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias l='lsd -ailvF'
+alias l='lsd -ailvF -I .ipynb_checkpoints -I .DS_Store'
 
 
 
@@ -155,4 +155,4 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-conda activate myenv
+conda activate newenv

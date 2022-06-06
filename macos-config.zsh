@@ -1,4 +1,3 @@
-#conda activate myenv &&
 env_name="$(echo $CONDA_DEFAULT_ENV)" &&
 env_date=$(TZ=America/New_York date -Iseconds) &&
 
