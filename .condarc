@@ -9,6 +9,7 @@ channels:
   - pytorch
 channel_priority: false
 create_default_packages:
+  - ansible=5.8
   - flask=2.1
   - ipykernel
   - ipython=8.4
