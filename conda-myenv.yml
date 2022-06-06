@@ -1,4 +1,4 @@
-name: newenv
+name: myenv
 channels:
   - conda-forge
   - defaults
@@ -255,4 +255,4 @@ dependencies:
   - zipp=3.8.0=pyhd8ed1ab_0
   - zlib=1.2.12=h6c3fc93_0
   - zstd=1.5.2=ha9df2e0_1
-prefix: /Users/davefriedman/opt/anaconda3/envs/newenv
+prefix: /Users/davefriedman/opt/anaconda3/envs/myenv

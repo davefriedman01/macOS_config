@@ -61,8 +61,8 @@ Rosetta 2: false
 #####
 
 
-     active environment : newenv
-    active env location : /Users/davefriedman/opt/anaconda3/envs/newenv
+     active environment : myenv
+    active env location : /Users/davefriedman/opt/anaconda3/envs/myenv
             shell level : 1
        user config file : /Users/davefriedman/.condarc
  populated config files : /Users/davefriedman/.condarc

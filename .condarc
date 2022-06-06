@@ -15,7 +15,7 @@ create_default_packages:
   - jupyterlab=3.4
   - jupyter-book=0.13
   - jupyter-dash
-  - matplotlib
+  - matplotlib=3.5
   - numpy=1.22
   - numpy-financial
   - pandas=1.4
@@ -26,6 +26,8 @@ create_default_packages:
   - python-dotenv=0.20
   - scikit-learn=1.1
   - scipy=1.8
+  - sphinx
+  - sqlite=3.38
   - statsmodels=0.13
 show_channel_urls: true
 verbosity: 1
