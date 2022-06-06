@@ -85,6 +85,10 @@ Rosetta 2: false
                           https://conda.anaconda.org/plotly/noarch
                           https://conda.anaconda.org/r/osx-64
                           https://conda.anaconda.org/r/noarch
+                          https://conda.anaconda.org/pandas/osx-64
+                          https://conda.anaconda.org/pandas/noarch
+                          https://conda.anaconda.org/pytorch/osx-64
+                          https://conda.anaconda.org/pytorch/noarch
           package cache : /Users/davefriedman/opt/anaconda3/pkgs
                           /Users/davefriedman/.conda/pkgs
        envs directories : /Users/davefriedman/opt/anaconda3/envs

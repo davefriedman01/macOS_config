@@ -5,6 +5,8 @@ channels:
   - defaults
   - plotly
   - r
+  - pandas
+  - pytorch
 channel_priority: false
 create_default_packages:
   - flask=2.1
@@ -24,6 +26,7 @@ create_default_packages:
   - plotly=5.8
   - pyspark=3.2
   - python-dotenv=0.20
+  - pytorch=1.11
   - scikit-learn=1.1
   - scipy=1.8
   - sphinx
